@@ -7,9 +7,9 @@ pipeline {
       }
     }
 
-    stage('log') {
+    stage('cat main.py') {
       steps {
-        sh 'ls -la'
+        sh 'cat main.py'
       }
     }
 
